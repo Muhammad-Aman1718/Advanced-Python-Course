@@ -60,31 +60,55 @@ print("This is boolean:", d)
 
 # Indentation is used to define the scope of loops, functions, and conditionals in Python.
 
+
 # Examples
 def print_numbers():
     for i in range(1, 11):
         print("This is number:", i)
+
+
 print_numbers()  # Function call to execute the loop
 
 
+# Exmaple 2
+def check_even_odd(num: int):
+    if num % 2 == 0:
+        print(num, " is even")
+    else:
+        print(num, " is odd")
 
 
-
-
+check_even_odd(10)  # Function call to check if 10 is even or odd
+check_even_odd(7)  # Function call to check if 7 is even or odd
 
 
 # Data Types
-# int, float, str, bool, list, tuple, set, dict
+# Python has various built-in data types to handle different kinds of data.
 
-a = 10
-f = 20.5
-s = "Hello"
-l = [1, 2, 3, 4, 5]
-t = (1, 2, 7)
-complex = 3 + 4j
+a = 10  # Integer
+f = 20.5  # Float
+s = "Hello"  # String
+l = [1, 2, 3, 4, 5]  # List
+t = (1, 2, 7)  # Tuple
+d = {"name": "Alice", "age": 30}  # Dictionary
+s2 = {1, 2, 3}  # Set
+complex_num = 3 + 4j  # Complex number
+
+
+print("This is integer:", type(a), a)
+print("This is float:", type(f), f)
+print("This is string:", type(s), s)
+print("This is list:", type(l), l)
+print("This is tuple:", type(t), t)
+print("This is dictionary:", type(d), d)
+print("This is set:", type(s2), s2)
+print("This is complex number:", type(complex_num), complex_num)
 
 
 # Operators
+
+# Python supports various operators for performing operations on variables and values.
+
 # Arithmetic Operators
 # +, -, *, /, //, %, **
 a = 3
@@ -97,3 +121,18 @@ print("Division:", a / b)
 print("Floor Division:", a // b)
 print("Modulus:", a % b)
 print("Exponentiation:", a**b)
+
+
+# Expressions and Statements
+
+
+# An expression is a combination of values and operators that evaluates to a value.
+
+# A statement is a complete instruction that performs an action.
+
+
+# Example of an expression
+result = a + b  # This is an expression that evaluates to a value
+
+# Example of a statement
+print("Result of addition:", result)  # This is a statement that prints the result
