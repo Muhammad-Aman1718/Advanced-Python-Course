@@ -90,7 +90,7 @@ f = 20.5  # Float
 s = "Hello"  # String
 l = [1, 2, 3, 4, 5]  # List
 t = (1, 2, 7)  # Tuple
-d = {"name": "Alice", "age": 30}  # Dictionary
+d = {"name": "Alice", "age": "aman"}  # Dictionary
 s2 = {1, 2, 3}  # Set
 complex_num = 3 + 4j  # Complex number
 
