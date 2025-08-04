@@ -50,6 +50,6 @@ print(a)
 
 a = "roger"
 
-print(a[2])
-print(a[-2])
-print(a[0:6])
+print(a[2])  # Accessing the third character
+print(a[-2])  # Accessing the second-to-last character
+print(a[0:6])  # Slicing the string from index 0 to 5
