@@ -55,4 +55,5 @@ list = [3, 2, 1, 4, 5]
 
 
 my_tuple = (1, 4, 5, 2, 3)
-print(my_tuple[2:4])
+my_tuple2 = (1, 4, 5, 2, 3)
+print(my_tuple == my_tuple2)
