@@ -1,59 +1,39 @@
-list = [3, 2, 1, 4, 5]
-# list = ["Ali", "Zain", "Ahmed", "Usman"]
+# s = {1, 2, 3}
+# s.add(4)  # {1,2,3,4}
+# print(s)
+# s.update([5, 6])  # {1,2,3,4,5,6}
+# print(s)
+# s.remove(2)  # removes 2, KeyError if missing
+# print(s)
+# s.discard(99)  # safe remove, no error if missing
+# print(s)
+# elem = s.pop()  # removes & returns an arbitrary element
+# print(elem)
+# # s.clear()  # empty the set
+# # len(s)  # size
+# # 1 in s  # membership test True/False
+# # u = s.copy()
 
-# print(type(list))
-
-# # list.append(10)
-# # print(list)
-# # list.clear()
-# # print(list)
-# # a = [1, 2, 3, 4, 5]
-# # print(list)
-# # print(a)
-# # print(a == list)
-
-
-# # print(list[-5])
-# list[1:4] = ["Test1", "Test2"]
-
-# print(list)
-# print(list[1])
-# list.sort(key=len )
-
-# new_list = sorted(list)
-# new_list = list.sort()
+# # print(u)
+# # print(s)
 
 
-# print(list)
-# print(new_list)
+a = {2, 3, 4, 1}
+b = {3, 4, 5, 6}
+
+print(a | b)  # union -> {1,2,3,4,5,6}
+print(a & b)  # intersection -> {3,4}
+print(b - a )  # difference -> {1,2}
+print(a ^ b)  # symmetric difference -> {1,2,5,6}
+
+# a.discard(5)
+# print(a)
+
+# a.pop()
+print(a)
+
+# forzen = frozenset(a)
 
 
-# statically typed
-# Dynamically typed
 
-
-# a = "hello"
-# print(id(a))       # Example: 140344944
-
-# a += " world"
-# print(a)           # 'hello world'
-# print(id(a))       # New id → new object was created
-
-
-# a = 10
-# print(id(a))  # e.g., 9789120
-
-# a += 1
-# print(id(a))  # different id → new object created
-
-
-# my_list = [1, 2, 3]
-# print(id(my_list))  # e.g., 139932928
-
-# my_list.append(4)
-# print(id(my_list))  # same id → object modified
-
-
-my_tuple = (1, 4, 5, 2, 3)
-my_tuple2 = (1, 4, 5, 2, 3)
-print(my_tuple == my_tuple2)
+# print(forzen)
