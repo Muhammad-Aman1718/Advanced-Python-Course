@@ -1,0 +1,3 @@
+
+   return list(set(lst))
+print(dup([1,2,2,3,4,4,5])) 
