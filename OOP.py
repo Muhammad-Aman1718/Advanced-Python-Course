@@ -5,7 +5,7 @@ class Car:
         print("this is constructor  ")
         self.color = "Green"
 
-    def fun(self, color: str):
+    def fun(self, color: str):  # Parameter
         self.color = color
     @staticmethod
     def mixc(num:int):

@@ -12,9 +12,9 @@
 # print(res)
 
 
-try:
-    n = 0
-    res = 100 / "12"
+# try:
+#     n = 0
+#     res = 100 / "12"
 
-except Exception as e:
-    print(e)
+# except Exception as e:
+#     print(e)
